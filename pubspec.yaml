@@ -1,0 +1,25 @@
+name: image_display_app
+description: A simple Flutter app to display an image and use Font Awesome icons.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Correct placement of the `cached_network_image` dependency
+  cached_network_image: ^3.3.1
+
+  # Add the Font Awesome package
+  font_awesome_flutter: ^10.7.0
+
+flutter:
+  uses-material-design: true
+
+  # Image asset paths
+  assets:
+    - assets/images/
