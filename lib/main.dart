@@ -458,7 +458,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ElevatedButton(onPressed: () {}, child: Text('All')),
                 ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => Clothes(leftText: '')));
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Clothes(leftText: '')));
                   },
                   child: Text('Clothes'),
                 ),
